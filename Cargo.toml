@@ -1,0 +1,13 @@
+[package]
+name = "battery-percentage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+IOKit-sys = "0.1.5"
+core-foundation = "0.9.4"
+core-foundation-sys = "0.8.6"
+libc = "0.2.151"
+mach = "0.3.2"
